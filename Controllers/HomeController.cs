@@ -18,12 +18,17 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult Customers()
     {
         return View();
     }
 
-    public IActionResult Genre()
+    public IActionResult Suppliers()
+    {
+        return View();
+    }
+
+    public IActionResult Items()
     {
         return View();
     }

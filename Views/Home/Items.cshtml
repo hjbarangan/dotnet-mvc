@@ -1,0 +1,68 @@
+@{
+    ViewData["Title"] = "Items";
+}
+
+<div class="d-flex row p-4">
+    <h1>@ViewData["Title"]</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+        <div class="d-flex container-flu table-responsive ">
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Barcode</th>
+                        <th scope="col">Item name</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>HJRB3GRR3RD</td>
+                        <td>Cloud</td>
+                        <td>2</td>
+                        <td>
+                            <button type="button" class="btn btn-primary">
+                                Edit
+                            </button>
+                            <button type="button" class="btn btn-danger">
+                                Delete
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>FVKUP11S0BR3</td>
+                        <td>Warm Vanilla Sugar</td>
+                        <td>3</td>
+                        <td>
+
+                            <button type="button" class="btn btn-primary">
+                                Edit
+                            </button>
+                            <button type="button" class="btn btn-danger">
+                                Delete
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>YWAKK3Y00M0</td>
+                        <td>Thank u, next</td>
+                        <td>3</td>
+                        <td>
+                            <button type="button" class="btn btn-primary">
+                                Edit
+                            </button>
+                            <button type="button" class="btn btn-danger">
+                                Delete
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+</div>
